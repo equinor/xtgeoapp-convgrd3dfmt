@@ -1,0 +1,37 @@
+# PYLINT: General settings for XTGeo
+[MASTER]
+ignore=src/xtgeo/cxtgeo, src/xtgeo/_version
+
+[BASIC]
+good-names=logger, version, xtg, i, j, k, x, y, z, _
+additional-builtins=_x, _y, _z, _tmp1, _tmp2
+variable-rgx=^[a-z_][_a-z0-9]+((_[a-z0-9]+)*)?$
+argument-rgx=^[a-z_][_a-z0-9]+((_[a-z0-9]+)*)?$
+
+[TYPECHECK]
+generated-members=np.*, numpy.*, pd.*, pandas.*
+
+[FORMAT]
+max-line-length=88
+max-module-lines=3000
+
+[DESIGN]
+max-attributes=25
+max-args=20
+max-locals=30
+max-branches=15
+max-bool-expr=8
+
+[SIMILARITIES]
+min-similarity-lines=40
+ignore-comments=yes
+ignore-docstrings=no
+ignore-imports=yes
+
+[MESSAGES CONTROL]
+disable=
+    fixme,
+    missing-docstring,
+    protected-access,
+    C0330,
+    useless-object-inheritance,
