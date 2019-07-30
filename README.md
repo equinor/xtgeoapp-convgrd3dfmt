@@ -19,4 +19,6 @@ pip install xtgeoapp-convgrd3dfmt
 convert_grid_format --help
 ```
 
-## History ##
+## Examples ##
+
+Examples will come later
