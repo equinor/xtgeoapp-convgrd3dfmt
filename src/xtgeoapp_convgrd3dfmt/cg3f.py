@@ -24,7 +24,7 @@ CONVERSIONS = ["ecl2roff"]
 MODES = ["grid", "init", "restart"]
 
 xtg = XTGeoDialog()
-logger = xtg.functionlogger(__name__)
+logger = xtg.basiclogger(__name__)
 
 
 def _do_parse_args(args):
