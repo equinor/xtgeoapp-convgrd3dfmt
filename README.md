@@ -1,5 +1,5 @@
 
-Deperated! Functionality is now in equinor/subscript!
+Deprecated! Functionality is now in equinor/subscript!
 
 # xtgeoapp-convgrd3dfmt [![Build Status](https://travis-ci.com/equinor/xtgeoapp-convgrd3dfmt.svg?branch=master)](https://travis-ci.com/Equinor/xtgeoapp-convgrd3dfmt)
 
